@@ -28,6 +28,9 @@ The pipeline will run two functions from `plastid`: `read_phasing` and `mapping_
 
 ### Determine the mapping rule
 
+```
+snakemake -s mito_.snakefile
+```
 
 ### Generate codon count table and other analysis
 Once the mapping rule has been determined the the user, then 
